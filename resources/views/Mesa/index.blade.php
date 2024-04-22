@@ -22,7 +22,7 @@
                     <th scope="col">Número</th>
                     <th scope="col">Capacidad</th>
                     <th scope="col">Ubicación</th>
-                    <th scope="col">Actions</th>
+                    <th scope="col">Acciones </th>
                 </tr>
             </thead>
             <tbody>
@@ -32,7 +32,7 @@
                     <td>{{ $mesa->Numero }}</td>
                     <td>{{ $mesa->Capacidad }}</td>
                     <td>{{ $mesa->Ubicacion }}</td>
-                    <td><span> Actions </span> </td>
+                    <td><span> Acciones </span> </td>
                 </tr>
                 @endforeach
             </tbody>
