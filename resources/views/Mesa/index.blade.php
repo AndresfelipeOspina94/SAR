@@ -33,7 +33,7 @@
                     <td>{{ $mesa->Capacidad }}</td>
                     <td>{{ $mesa->Ubicacion }}</td>
                     <td><span> Acciones </span> </td>
-                </tr>
+                </tr>  
                 @endforeach
             </tbody>
         </table>
